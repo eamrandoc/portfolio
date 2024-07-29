@@ -87,6 +87,8 @@ header{
     background-image: url(../assets/images/developer.png), url(../assets/images/header_bg.png);    
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 nav{
@@ -99,7 +101,6 @@ nav{
     color: rgb(253, 110, 10);
 }
 
-
 /* banner section  */
 .banner{
     margin:0 35px 0 200px;
@@ -111,9 +112,13 @@ nav{
 }
 
 /* About me  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 .about-me{
-    margin: 130px 230px;
+    margin: 130px 0;
     padding: 130px 150px;
 }
 .myself{
@@ -124,12 +129,8 @@ nav{
     justify-content: space-around;
     gap: 50px;
 }
-
-
 /* what-i-do  */
-.what-i-do{
-    margin: 0 230px auto;
-}
+
 .what-i-do-content{
     padding: 0 115px;
 }
@@ -144,17 +145,14 @@ nav{
 .carrers-list{
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 0 6px 50px 8px rgba(0,0,0,0.6);
-    
+    box-shadow: 0 6px 50px 8px rgba(0,0,0,0.6);    
 }
 .carrer-name{
     margin: 10px 0 20px 0;
 }
-
 /* A-summary-of-my-resume */
-
 .resume{
-    margin: 130px 230px;
+    margin: 130px 0;
 }
 .resume-description{
     margin-top: 114px;
@@ -177,6 +175,8 @@ hr{
 
 /* footer  */
 footer{
+    max-width: 1600px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     gap: 100px;
